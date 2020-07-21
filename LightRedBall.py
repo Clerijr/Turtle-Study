@@ -1,5 +1,11 @@
 from turtle import *
 
+''' Possible modifications: 
+- Shadows maybe? 
+- Multiple Light effects for more realism. 
+- Changing the circle drawing pattern
+'''
+
 def main():
     # Setting the canvas size and sending the turtle to the position
     setworldcoordinates(-250, -250, 250, 250)
@@ -30,5 +36,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-
+    
 exitonclick()
